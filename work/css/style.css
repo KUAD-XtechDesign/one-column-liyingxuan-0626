@@ -1,0 +1,57 @@
+body{
+    background-color: #CC9999;
+    color: #333366;
+    font-family: fantasy;
+}
+.wrapper{
+     background-color:#CC9999 ;
+     font-size: large;
+     margin: 0 auto;
+     max-width: 1000px;
+}
+h1{
+    font-size: xx-large;
+    background: #996666;
+}
+img{
+    max-width: 75%;
+}
+.img_button img{
+    display: block;
+}
+  
+  .img_button:hover{
+    opacity: 0.8;
+  }
+  
+  .content{
+    display: none;
+    padding: 30px;
+  }
+  
+  .close_button{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: rgb(14, 13, 13);
+    cursor: cell;
+  }
+  
+  .img_button{
+    transition: 0.5s all;
+    cursor: cell;
+  }
+  
+ 
+  .txt_img{
+    display: flex;
+  }
+  
+  
+  .txt{
+    width: 80%;
+    padding: 10px;
+  }
+  
+ 
